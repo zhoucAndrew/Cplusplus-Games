@@ -166,6 +166,7 @@ void printFrameCoord(Frame a)
  
 int drawMenu()
 {
+	system("cls");
     SetPos(30, 1);
     cout<<"P l a n e  W a r";
     drawRow(3, 0, 79, '-');

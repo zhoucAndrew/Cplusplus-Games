@@ -166,6 +166,7 @@ void printFrameCoord(Frame a)
  
 int drawMenu()
 {
+	system("cls");
     SetPos(30, 1);
     cout<<"P l a n e  W a r";
     drawRow(3, 0, 79, '-');
@@ -189,7 +190,6 @@ int drawMenu()
     cout<<">>";
  
     //drawFrame(45, 9, 79, 17, '=', '|');
- 
     while(1)
     {    if( _kbhit() )
         {    
